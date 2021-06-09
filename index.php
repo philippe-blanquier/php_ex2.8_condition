@@ -8,10 +8,14 @@
     <body >
         <p>
             <?php
-                $idx=0;
-                for ($idx=0; $idx < 10; $idx++)
+                $isOk=TRUE;
+                if( $isOk == TRUE)
                 {
-                    echo $idx.' ';
+                    echo ('C\'est ok !!');
+                }
+                else
+                {
+                    echo ('C\'est pas bon !!!');
                 }
            ?>
        </p>
